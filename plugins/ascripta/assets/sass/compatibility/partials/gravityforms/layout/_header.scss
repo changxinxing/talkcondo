@@ -1,0 +1,57 @@
+
+/* Title */
+
+.gform_heading {
+	margin-bottom: 1.25em;
+}
+
+/* Description */
+
+.description,
+.gfield_description,
+.gsection_description,
+.instruction {
+	padding-right: 0;
+	font-size: .8em;
+}
+
+/* Progress Bar */
+
+.gf_progressbar_wrapper {
+	width: 100%;
+	padding-bottom: 1em;
+	margin-bottom: 0;
+	.progress {
+		margin-bottom: 1.1em;
+		&-bar-gray {
+			background-color: #666;
+		}
+	}
+	.percentbar_0 span {
+		display: none
+	}
+	h3.gf_progressbar_title {
+		margin: 0 0 .8em !important;
+		font-size: .9em;
+	}
+}
+
+/* Steps */
+
+.gf_page_steps {
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+.gf_step {
+	margin-top: 0;
+}
+
+/* Saved */
+
+.form_saved_message {
+	margin: 0;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	border-radius: 0;
+}

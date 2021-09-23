@@ -1,0 +1,1 @@
+[14-Jan-2019 14:59:03 UTC] PHP Fatal error:  Class 'WP_Filesystem_Base' not found in /home2/talkcondo/public_html/wp-admin/includes/class-wp-filesystem-ssh2.php on line 36

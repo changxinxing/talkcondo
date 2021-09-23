@@ -1,0 +1,42 @@
+/* Footer */
+
+.gform_footer,
+.gform_page_footer {
+	margin-bottom: 0;
+	padding: 0;
+	&.left_label,
+	&.right_label {
+		width: 70%;
+		padding: 0;
+		margin-left: 30%;
+	}
+	.gform_button,
+	.gform_next_button,
+	.gform_save_link {
+		float: right;
+	}
+	input.button,
+	input[type=submit] {
+		margin-right: 0;
+	}
+	.gform_next_button+.gform_save_link {
+		margin-right: 5px;
+	}
+	@media (max-width: 640px) {
+		.btn {
+			width: 100% !important;
+			margin-bottom: 1em !important;
+		}
+		a.btn:last-of-type {
+			margin-bottom: 0 !important;
+		}
+	}
+}
+
+
+/* Page Footer */
+
+.gform_page_footer {
+	border-top: 0;
+	width: 100%
+}

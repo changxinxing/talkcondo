@@ -1,0 +1,30 @@
+.woocommerce .star-rating,
+.woocommerce-page .star-rating {
+	font-family: FontAwesome;
+	font-size: 1em;
+	line-height: 1em;
+	position: relative;
+	overflow: hidden;
+	width: 90px;
+	height: 1em;
+	margin-bottom: 5px;
+	color: gold;
+}
+
+.woocommerce .star-rating span,
+.woocommerce-page .star-rating span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	overflow: hidden;
+	padding-top: 1em;
+}
+
+.woocommerce .star-rating span:before,
+.woocommerce-page .star-rating span:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '\2605\2605\2605\2605\2605';
+}

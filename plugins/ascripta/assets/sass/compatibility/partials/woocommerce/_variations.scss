@@ -1,0 +1,45 @@
+.variations {
+    margin: 1.5rem 0;
+}
+
+.variations>tbody>tr>td,
+.variations>tbody>tr>th,
+.variations>tfoot>tr>td,
+.variations>tfoot>tr>th,
+.variations>thead>tr>td,
+.variations>thead>tr>th {
+    border-top: 0;
+}
+
+.variations>tbody>tr>td,
+.variations>tfoot>tr>td {
+    padding: 0;
+    vertical-align: middle;
+}
+
+.variations>tfoot>tr>td {
+    padding-top: 1rem;
+    text-align: right;
+}
+
+.variations label {
+    margin-bottom: 0;
+}
+
+.variations .reset_variations[style^='visibility: hidden'] {
+    display: none!important;
+}
+
+.variation {
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+.variation dd,
+.variation dt {
+    display: inline-block;
+}
+
+.variation dt {
+    text-transform: capitalize;
+}

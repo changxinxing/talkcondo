@@ -1,0 +1,17 @@
+&.gf_browser_safari {
+	.gfield_checkbox {
+		li {
+			input,
+			input[type=checkbox] {
+				margin-top: .275em;
+			}
+		}
+	}
+	.gfield_radio {
+		li {
+			input[type=radio] {
+				margin-top: .375em;
+			}
+		}
+	}
+}

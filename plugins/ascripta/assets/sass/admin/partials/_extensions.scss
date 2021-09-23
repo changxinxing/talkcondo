@@ -1,0 +1,41 @@
+#wp-content-media-buttons {
+	margin-bottom: 0.25em;
+}
+
+#post-body-content .page-builder-hide-button {
+	margin-bottom: 0.75em !important;
+}
+
+.fw-backend-option .fw-option-type-builder>.builder-items-types .fw-options-tabs-wrapper.fw-options-tabs-first-level .ui-tabs-nav a {
+	font-size: 1.1em !important;
+	padding: 1em 2em !important;
+}
+
+.fw-backend-option .postbox .fw-options-tabs-wrapper>.fw-options-tabs-list {
+	padding-top: 0;
+}
+
+.ascripta_page_fw-extensions .wrap>h2:first-child,
+.ascripta_page_fw-extensions .wrap>h2:first-child+br {
+	display: none;
+	visibility: hidden;
+}
+
+.ascripta_page_fw-extensions #fw-extensions-list-wrapper>h3:first-child {
+	margin-top: 1.5em;
+}
+
+#the-list [data-slug=unyson] .row-actions .fw-extensions {
+	display: none;
+}
+
+.metabox-submit {
+	padding-left: 10px;
+}
+
+#ae_tools_installer .metabox-submit,
+#ae_tools_retina .metabox-submit {
+	display: none;
+	visibility: hidden;
+	pointer-events: none;
+}

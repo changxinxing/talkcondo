@@ -1,0 +1,6 @@
+@media (min-width: 641px) {
+	&.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+		width: 100%;
+		max-width: 100% !important;
+	}
+}

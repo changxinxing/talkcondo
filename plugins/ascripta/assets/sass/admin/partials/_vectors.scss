@@ -1,0 +1,12 @@
+body #postimagediv .inside img[src$='.svg'],
+body #set-post-thumbnail {
+	width: 100%;
+}
+
+.wp-core-ui .attachment .thumbnail .centered img[src$='.svg'] {
+	width: 70%;
+}
+
+table.media .column-title .media-icon img[src$='.svg'] {
+	width: 60px;
+}

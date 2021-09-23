@@ -1,0 +1,229 @@
+li.gfield {
+	margin-top: 0;
+	padding-bottom: 1.25em;
+	&.hidden_label {
+		input {
+			margin-top: 0
+		}
+	}
+	.instruction,
+	.gfield_description {
+		&.validation_message {
+			padding: .75em 0 0;
+		}
+	}
+	&.field_sublabel_above,
+	&.field_sublabel_below {
+		.ginput_complex.ginput_container,
+		div[class*=gfield_date_].ginput_container,
+		div[class*=gfield_time_].ginput_container {
+			label {
+				font-size: .8em;
+			}
+		}
+	}
+	&.field_description_above {
+		.gfield_time_hour {
+			i {
+				top: auto;
+				bottom: 0.4375em;
+			}
+		}
+	}
+	&.field_description_below {
+		div {
+			&.ginput_container_checkbox,
+			&.ginput_container_radio {
+				margin-top: 0;
+			}
+		}
+	}
+	&.gsection {
+		.gsection_description {
+			margin: .8em 0 0;
+			padding-right: 0;
+		}
+		@media (min-width: 641px) {
+			margin: 0 0 1.25em;
+		}
+	}
+	&+li.gsection {
+		margin-top: 0 !important;
+	}
+	&.gfield_html.gfield_no_follows_desc {
+		margin-top: 0
+	}
+	.gform_fileupload_multifile .gform_drop_area {
+		margin-bottom: 0
+	}
+	input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+		padding: 6px 12px;
+	}
+	.gfield_checkbox,
+	.gfield_radio {
+		margin: 0;
+		li {
+			label {
+				padding-left: 1.5em;
+				font-size: initial;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	.ginput_complex {
+		position: relative;
+		margin-bottom: -.75em;
+		.ginput_full,
+		.ginput_left,
+		.ginput_right {
+			min-height: 0;
+			label {
+				margin: .75em 0;
+			}
+		}
+		@media (min-width: 641px) {
+			span.ginput_right+span.ginput_left.address_zip {
+				padding-right: 1em !important;
+			}
+			&.ginput_container_name,
+			&.ginput_container_password,
+			&.ginput_container_email {
+				width: 100%;
+			}
+			&.ginput_container_name {
+				span {
+					padding-right: 1em;
+				}
+				span + span {
+					padding-left: 1em;
+				}
+				span:last-child {
+					padding-right: 0;
+				}
+			}
+			.ginput_left {
+				padding-right: 1em;
+			}
+			.ginput_right {
+				padding-left: 1em;
+				padding-right: 0;
+			}
+			&.ginput_container_address {
+				.ginput_left {
+					margin-right: 0 !important;
+				}
+			}
+		}
+	}
+	.ginput_complex,
+	div[class*=gfield_time_] {
+		&.ginput_container {
+			label {
+				margin: .75em 0;
+			}
+		}
+	}
+	.gfield_time {
+		&_hour,
+		&_minute,
+		&_ampm {
+			display: inline-block;
+			width: 4em;
+			max-width: 100%;
+			margin-right: .75em;
+			.form-control {
+				width: 100%;
+			}
+		}
+		&_hour {
+			position: relative;
+			i {
+				margin-top: 0;
+				float: none;
+				position: absolute;
+				left: 4.2em;
+				top: 0.4375em;
+			}
+		}
+		&_ampm {
+			select {
+				width: 7rem !important;
+				max-width: none !important;
+			}
+		}
+	}
+	.gfield_date {
+		&_dropdown {
+			&_day,
+			&_month,
+			&_year {
+				width: 32%;
+				margin: 0 2% 0 0;
+				@media (min-width: 641px) {
+					width: 20%;
+					min-width: 7em;
+				}
+			}
+			&_year {
+				margin-right: 0;
+			}
+		}
+		.ui-datepicker-trigger {
+			margin-left: .5em;
+		}
+	}
+	&.gfield_error,
+	&.gfield_error.gfield_contains_required,
+	&.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+		background: none;
+		border: 0;
+		margin-top: 0;
+		margin-bottom: 0 !important;
+		padding-top: 0;
+		padding-bottom: 1.25em;
+		div.ginput_container,
+		label.gfield_label {
+			margin-top: 0;
+		}
+	}
+	&.gfield_error {
+		.gfield_label {
+			color: inherit;
+		}
+		div.ginput_complex.ginput_container,
+		ul.gfield_checkbox,
+		ul.gfield_radio {
+			label {
+				color: #790000
+			}
+		}
+		&.gfield_contains_required {
+			div.gfield_description {
+				padding-right: 0;
+			}
+		}
+	}
+	&.gfield_creditcard_warning {
+		margin-top: 0 !important;
+		border: 1px solid #790000;
+		margin-bottom: 1.5em;
+		width: 100%;
+	}
+	.ginput_container_creditcard .ginput_cardinfo_right {
+		.form-control {
+			display: inline-block;
+			width: auto !important;
+		}
+	}
+	@media (min-width: 641px) {
+		padding-right: 0;
+		.gform_fileupload_multifile .gform_button_select_files {
+			margin-left: .5em;
+		}
+		span.gform_drop_instructions {
+			display: inline-block;
+		}
+	}
+}

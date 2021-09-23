@@ -1,0 +1,25 @@
+/**
+ * Ascripta: Gravity Forms Compatibility
+ *
+ * @version     1.2.0
+ * @category    Stylesheet
+ * @author      Ascripta
+ */
+
+.gform_wrapper {
+	
+	margin-top: 0;
+	margin-bottom: 1em;
+	
+	//* Layout
+	@import 'partials/gravityforms/layout/header.scss';
+	@import 'partials/gravityforms/layout/content.scss';
+	@import 'partials/gravityforms/layout/footer.scss';
+
+	//* Functionality
+	@import 'partials/gravityforms/functionality/validation.scss';
+
+	//* Browser Compatibility
+	@import 'partials/gravityforms/browsers/safari.scss';
+
+}

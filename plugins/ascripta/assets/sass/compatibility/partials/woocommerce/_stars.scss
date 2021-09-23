@@ -1,0 +1,76 @@
+.woocommerce p.stars a {
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    margin-right: 1em;
+    text-indent: -9999px;
+    direction: ltr;
+    color: #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.woocommerce p.stars a:hover {
+    color: #aaa;
+}
+
+.woocommerce p.stars a:focus {
+    outline: 0;
+    color: #aaa;
+}
+
+.woocommerce p.stars .active,
+.woocommerce p.stars .active:focus {
+    color: gold;
+}
+
+.woocommerce p.stars a.star-1::after,
+.woocommerce p.stars a.star-2::after,
+.woocommerce p.stars a.star-3::after,
+.woocommerce p.stars a.star-4::after,
+.woocommerce p.stars a.star-5::after {
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-indent: 0;
+}
+
+.woocommerce p.stars a.star-1 {
+    width: 2em;
+}
+
+.woocommerce p.stars a.star-1::after {
+    content: '\2605';
+}
+
+.woocommerce p.stars a.star-2 {
+    width: 3em;
+}
+
+.woocommerce p.stars a.star-2::after {
+    content: '\2605\2605';
+}
+
+.woocommerce p.stars a.star-3 {
+    width: 4em;
+}
+
+.woocommerce p.stars a.star-3::after {
+    content: '\2605\2605\2605';
+}
+
+.woocommerce p.stars a.star-4 {
+    width: 5em;
+}
+
+.woocommerce p.stars a.star-4::after {
+    content: '\2605\2605\2605\2605';
+}
+
+.woocommerce p.stars a.star-5 {
+    width: 6em;
+}
+
+.woocommerce p.stars a.star-5::after {
+    content: '\2605\2605\2605\2605\2605';
+}

@@ -1,0 +1,12 @@
+.gform_fields {
+
+	// Top, Left and Right
+	@import '../fields/all/fields';
+
+	// Only Top
+	@import '../fields/top/fields';
+
+	// Only Left and Right
+	@import '../fields/sides/fields';
+	
+}

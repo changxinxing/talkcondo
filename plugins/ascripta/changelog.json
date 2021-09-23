@@ -1,0 +1,210 @@
+{
+	"1.0.0": ["RELEASE: Development Beta Launch"],
+	"1.1.0": [
+		"RELEASE: Production Release Launch",
+		"FEATURE: Implemented a brand new Retina / HiDPI system",
+		"FEATURE: Smart plugin dependency system",
+		"UPDATE: All includes and libraries have been updated to the latest versions"
+	],
+	"1.1.1": [
+		"ENHANCEMENT: Simplified and the HiDPI engine to make use of the latest Wordpress features",
+		"BUG FIX: Fixed an issue that prevented HiDPI AJAX from working properly"
+	],
+	"1.1.2": [
+		"FEATURE: White Label System for the recommended plugins",
+		"UPDATE: Updated the included WooCommerce templates to 2.5.0",
+		"BUG FIX: Fixed an issue where WooCommerce did not load the reviews template"
+	],
+	"1.1.3": [
+		"ENHANCEMENT: Removed the form markup from the Tools subpages",
+		"BUG FIX: The HiDPI search conflicted with the options page form",
+		"BUG FIX: The default WooCommerce image was not responsive",
+		"BUG FIX: Removed the breadcrumb link when the blog is set as the site front page",
+		"BUG FIX: Tweaked the White Label functionality to only trigger when a plugin is installed",
+		"BUG FIX: ob_end_flush() was triggering during the Installer",
+		"BUG FIX: Fixed an action hook for the WooCommerce product details template"
+	],
+	"1.1.4": [
+		"ENHANCEMENT: Beautified the Update Check PHP class.",
+		"BUG FIX: Fixed a licensing engine hooking error."
+	],
+	"1.1.5": ["RELEASE: Emergency push to test the licensing system updater"],
+	"1.1.6": [
+		"FEATURE: Implemented a dynamic layout generator in the Customizer"
+	],
+	"1.1.7": [
+		"UPDATE: Updated the framework CSS table of contents",
+		"BUG FIX: Added the 'background-size: cover' to the [data-background-image] elements"
+	],
+	"1.1.8": [
+		"FEATURE: Implemented predictive search to the native Wordpress search box",
+		"FEATURE: Added an option to remove the fixed navigation on the homepage within AscriptaJS",
+		"FEATURE: Implemented a custom 404 page and search results not found page",
+		"BUG FIX: Changed the z-index for the fixed navigation component to 1000",
+		"BUG FIX: The blog helper function did not detect all templates properly",
+		"BUG FIX: Prevent submitting an empty search request"
+	],
+	"1.1.9": [
+		"FEATURE: Introducing helper functions for pulling responsive Wordpress images from ACF",
+		"FEATURE: Introducing support for Wordpress Custom Logos",
+		"UPDATE: Updated support for WooCommerce 1.6",
+		"UPDATE: Updated to fully support Gravity Forms 2",
+		"UPDATE: Updated the Updater PHP Class to the latest version",
+		"ENHANCEMENT: Removed the border around the cart widget in WooCommerce",
+		"ENHANCEMENT: Reduced the WooCommerce Breadcrumb PHP weight",
+		"ENHANCEMENT: Reduced the Gravity Forms CSS weight by 32.68%",
+		"ENHANCEMENT: Moved the plugin changelog into a JSON file and removed the table from the Wordpress back-end",
+		"ENHANCEMENT: Removed the woocommerce/loop/title.php template as it can now done via an action hook",
+		"ENHANCEMENT: Removed the WooThemes Updater notice from the admin area",
+		"ENHANCEMENT: Restructured the breadcrumb component PHP comments",
+		"ENHANCEMENT: Fixed various header versioning issues",
+		"BUG FIX: Fixed various CSS linting issues in the WooCommerce compatibility stylesheet",
+		"BUG FIX: The 404 page would show empty post types and would not show the proper breadcrumb"
+	],
+	"1.1.10": [
+		"BUG FIX: Only run the HiDPI engine if WP-Retina-2X is disabled. Further compatibility to be implemented in the future."
+	],
+	"1.2.0": [
+		"FEATURE: An exclusive post/page system that allows the user to set the layout per entry",
+		"FEATURE: Completely reimplemented the Installer tool, removed the TGMPA class entirely",
+		"FEATURE: Custom logo system for the login page using the customizer logo",
+		"FEATURE: Make the login page background automatically darken for light logos",
+		"FEATURE: Introducing the ascripta_login_threshold filter to control the brightness point",
+		"FEATURE: Implemented support and white labeling for Stream",
+		"FEATURE: Implemented Grunt for more consistent development",
+		"ENHANCEMENT: Updated all included libraries to the latest versions",
+		"ENHANCEMENT: Synchronised Ascripta's versioning and functionality",
+		"ENHANCEMENT: Structural changes across files",
+		"ENHANCEMENT: Improved the header folding offset",
+		"ENHANCEMENT: Migrated all Gravity Forms styles from CSS to SASS",
+		"ENHANCEMENT: Dramatically improved the Gravity Forms styles",
+		"ENHANCEMENT: Documentation and white space improvements",
+		"BUG FIX: Prevented an error when dropping a HiDPI image ontop of the arrow icon in the HiDPI tool",
+		"BUG FIX: Selected the All tab by default in the HiDPI tool",
+		"BUG FIX: Prevented the tables from appearing empty in the HiDPI tool",
+		"BUG FIX: Fixed an issue with the breadcrumb when the blog is used as the homepage",
+		"BUG FIX: Autocomplete now properly works even if logged out",
+		"BUG FIX: The Settings link now properly appears even with the client mode disabled",
+		"BUG FIX: Prevent the header from folding if the menu is dropped in",
+		"BUG FIX: Adjusted the is_page helper to ignore the front page",
+		"BUG FIX: Check for an avatar in the author box before displaying it"
+	],
+	"1.2.1": ["FEATURE: Multi-level dropdown menus are now supported."],
+	"1.2.2": [
+		"ENHANCEMENT: Updated all Installer plugins to the latest versions.",
+		"ENHANCEMENT: Added new repository plugins to the Installer.",
+		"ENHANCEMENT: Change the styling for the licensing notice.",
+		"ENHANCEMENT: Implemented a data processing utility.",
+		"ENHANCEMENT: Implemented support when ACF is not installed.",
+		"BUG FIX: Fix an issue where the Installer repo transients would not get detected properly",
+		"BUG FIX: Fixed an issue where using a .jpg custom logo breaks the login screen."
+	],
+	"1.3.0": [
+		"FEATURE: Implemented extensive support for the Unyson framework."
+	],
+	"1.3.1": [
+		"FEATURE: Implemented a smart server offline mode that preserves the valid license status for 24 hours.",
+		"ENHANCEMENT: Implemented the missing Unyson compatibility checkbox under Advanced.",
+		"ENHANCEMENT: Reverted the white labeled plugins to their original names.",
+		"ENHANCEMENT: Changed the plugin repository domain.",
+		"ENHANCEMENT: Removed WP Rocket from the plugin archives.",
+		"ENHANCEMENT: Updated all plugins to the latest versions.",
+		"BUG FIX: Check if a custom logo exists on the login page before calling it.",
+		"BUG FIX: Fixed an issue with properly pulling the Customizer layout settings.",
+		"BUG FIX: Fixed an issue with the Customizer layout conditionals.",
+		"BUG FIX: Only allow disabling jQuery Migrate on the front-end.",
+		"BUG FIX: Fixed the Installer by updating the way the API is contacted."
+	],
+	"1.3.2": ["BUG FIX: Fixed an issue with detecting the custom logo type."],
+	"1.3.3": [
+		"FEATURE: Implemented a brand new TinyMCE Elements Button with various styles.",
+		"ENHANCEMENT: Conditionally loaded various components only in the admin area."
+	],
+	"1.3.4": [
+		"BUG FIX: Fixed a critical issue with fields conditional loading."
+	],
+	"1.3.5": [
+		"ENHANCEMENT: Added breadcrumb support for custom post types.",
+		"ENHANCEMENT: Added various repository plugins to the installer.",
+		"ENHANCEMENT: Implemented support for WooCommerce 3.0.X.",
+		"BUG FIX: Fixed the custom logo not loading due to conditional loading.",
+		"BUG FIX: Improved the helpers to detect archives and single posts properly."
+	],
+	"1.3.6": [
+		"FEATURE: Allow the featured image to be hidden on posts, pages and archives.",
+		"ENHANCEMENT: Improved partial support for WooCommerce 3.",
+		"ENHANCEMENT: Implemented breadcrumb support for page ancestors.",
+		"ENHANCEMENT: Make the breadcrumb enabled on single pages by default.",
+		"BUG FIX: Fixed a bug where coupons wouldn't apply on the cart page.",
+		"BUG FIX: Fixed the entry helper not propagating the layout properly.",
+		"BUG FIX: Fixed the corrupted Font Awesome files.",
+		"BUG FIX: Prevented the license key from being re-encrypted when already valid.",
+		"BUG FIX: Fixed a bug that prevented the key from being set to empty.",
+		"BUG FIX: Fixed an issue with the WooCommerce active plugin detection."
+	],
+	"1.3.7": [
+		"ENHANCEMENT: Full support for WooCommerce 3.0.",
+		"BUG FIX: Fixed various WooCommerce layout and styling issues."
+	],
+	"1.4.0": [
+		"FEATURE: Implemented a new 'Related Posts' component.",
+		"FEATURE: Implemented a new 'Pager' component.",
+		"FEATURE: Native support for .svg files.",
+		"FEATURE: SSL / HTTPS redirection support.",
+		"FEATURE: Support for ghost dropdown menus (clicking through the toggle to get to the page).",
+		"FEATURE: New Map URL and Map Embed added to the Contact section in the Customizer.",
+		"ENHANCEMENT: Implemented a new filter called 'ascripta_autocomplete_post_types' that allows custom post type configuration for the autocomplete feature.",
+		"ENHANCEMENT: Changed the default WooCommerce related products per row to 3, down from 4.",
+		"ENHANCEMENT: Various WooCommerce markup and style improvements.",
+		"ENHANCEMENT: Various framework style improvements.",
+		"ENHANCEMENT: Drastically improved the dropdown menu behaviour on hover / toggle.",
+		"BUG FIX: Fixed various WooCommerce layout and styling issues."
+	],
+	"1.4.1": [
+		"BUG FIX: Fixed a critical JS bug that was crashing the framework."
+	],
+	"1.4.2": [
+		"FEATURE: Native support for animation delays via data attribute.",
+		"FEATURE: Animation support for Slick.js slideshows.",
+		"FEATURE: Contact support for business opening hours.",
+		"ENHANCEMENT: Code restructuring for easier maintainance and development.",
+		"ENHANCEMENT: Completely restructured the JavaScript towards a class approach.",
+		"ENHANCEMENT: Updated Slick.js to the latest version.",
+		"ENHANCEMENT: Renamed the 'HiDPI' tool to 'Sharpener'.",
+		"ENHANCEMENT: Restructured customizer address for better Schema.org compatibility.",
+		"ENHANCEMENT: Extended Ascripta JS Jumpers to work with elements having the .jumper class.",
+		"BUG FIX: Fixed the My Account > Address breadcrumb endpoints.",
+		"BUG FIX: Fixed the My Account > Subscription breadcrumb endpoint.",
+		"BUG FIX: Fixed the Unyson Shortcodes incompatibility bug with the custom TinyMCE button."
+	],
+	"1.4.3": [
+		"BUG FIX: Fixed the css folder not being pushed to the repository."
+	],
+	"1.4.4": [
+		"ENHANCEMENT: Updated classes to support the new blog entry templates."
+	],
+	"1.4.5": [
+		"FEATURE: Maintenance Mode tool under Ascripta > Tools.",
+		"ENHANCEMENT: Updated the recommended Installer plugins.",
+		"BUG FIX: Fixed a bug where the Installer was not loading."
+	],
+	"1.4.6": ["BUG FIX: Fixed a default maintenance mode issue."],
+	"1.4.7": ["BUG FIX: Final adjustments to the maintenance mode."],
+	"1.4.8": [
+		"ENHANCEMENT: Extra support for various plugins.",
+		"ENHANCEMENT: Various adjustments to settings, customizer and dashboard."
+	],
+	"1.4.9": [
+		"BUG FIX: Fixed an issue with the maintenance logged in conditional logic."
+	],
+	"1.4.10": [
+		"FEATURE: Introducing backwards compatibility for JS.",
+		"ENHANCEMENT: Prevent Brizzy by Unyson from popping up in the dashboard."
+	],
+	"1.4.11": ["BUG FIX: Fixed an issue caused by the throttle method."],
+	"1.4.12": ["BUG FIX: Fixed an issue with JSON ACF affecting child themes."],
+	"1.4.13": [
+		"ENHANCEMENT: Manual switch for the static asset version stripping tweak."
+	],
+	"1.5.0": ["UPDATE: Removed the key-based licensing system."]
+}

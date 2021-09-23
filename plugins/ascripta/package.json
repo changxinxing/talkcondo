@@ -1,0 +1,27 @@
+{
+	"name": "ascripta-plugin",
+	"version": "1.5.0",
+	"description": "Ascripta is a framework used to accurately develop Wordpress themes, helping the developer match any provided design with a dramatically improved efficiency.",
+	"author": "Ascripta",
+	"license": "GPL-3.0",
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-es2015": "^6.24.1",
+		"grunt": "^1.0.3",
+		"grunt-autoprefixer": "^3.0.4",
+		"grunt-babel": "^7.0.0",
+		"grunt-contrib-clean": "^1.0.0",
+		"grunt-contrib-cssmin": "^2.2.1",
+		"grunt-contrib-imagemin": "^2.0.1",
+		"grunt-contrib-jshint": "^1.0.0",
+		"grunt-contrib-sass": "^1.0.0",
+		"grunt-contrib-uglify": "^3.3.0",
+		"grunt-contrib-uglify-es": "^3.3.0",
+		"grunt-contrib-watch": "^1.1.0",
+		"grunt-cssbeautifier": "^0.1.9",
+		"grunt-csscomb": "^3.1.1",
+		"grunt-jsbeautifier": "^0.2.13",
+		"load-grunt-tasks": "^4.0.0"
+	}
+}

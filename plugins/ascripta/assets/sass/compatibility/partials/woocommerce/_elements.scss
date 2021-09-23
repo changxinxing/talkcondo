@@ -1,0 +1,60 @@
+.pswp__bg {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.woocommerce address {
+	margin-bottom: 15px;
+}
+
+.woocommerce .form-legend {
+	margin-bottom: 10px;
+	padding-top: 5px;
+	border-bottom: 0;
+}
+
+.woocommerce .form-group>input[type=submit] {
+	margin-top: 10px;
+}
+
+.woocommerce .login {
+	padding-bottom: 15px;
+}
+
+.woocommerce .table {
+	table-layout: fixed;
+}
+
+.woocommerce .page-header {
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding-bottom: 2px;
+}
+
+.woocommerce .page-header h2,
+.woocommerce .page-header h3 {
+	margin-top: 0;
+}
+
+.woocommerce .page-header label {
+	font-weight: inherit;
+	margin-bottom: 0;
+}
+
+.woocommerce-MyAccount-navigation {
+	margin-bottom: 1em;
+}
+
+@media only screen and (min-width:768px) {
+	.woocommerce-MyAccount-navigation ul>li {
+		display: block;
+		width: 100%;
+	}
+}
+
+.woocommerce-result-count {
+	margin-bottom: 1rem;
+}
+
+.woocommerce-pager {
+    margin-top: 15px;
+}
